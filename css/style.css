@@ -1,0 +1,165 @@
+@charset "UTF-8";
+html {
+font-size: 18px;
+}
+.header {
+  height: 85vh;
+  background: url(../img/una.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-wrapper {
+  width: 56%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-wrapper__ttl {
+  font-size: 2.5rem;
+  color: #fff;
+  background-color: #f08080;
+  padding: 3.75%;
+}
+.top-nav__list {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f08080;
+  padding: 1.5% 5%;
+  list-style: none;
+}
+.top-nav__list__item {
+  font-size: 1.2rem;
+}
+.top-nav__list__item a {
+  color: #fff;
+  text-decoration: none;
+}
+.section {
+  width: 80%;
+  margin: 5% auto;
+}
+.ttl {
+  font-size: 3rem;
+  text-align: center;
+  color: #fff;
+  background-color: navy;
+  margin-bottom: 5%;
+  padding: 1%;
+}
+.me-wrapper {
+  top: 2rem;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin-top: 8%;
+}
+.me-wrapper__left__ttl {
+  font-size: 2.2rem;
+  color: #f08080;
+  padding: 10% 2%;
+  white-space: nowrap;}
+
+.me-wrapper__left__txt {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: navy;
+  border: 3px #f08080 dashed;
+  padding: 5% 5% 45%;
+  hyphens: auto;
+  height: auto;
+  list-style-position: inside;
+}
+.me-wrapper__right img {
+  margin-right: 2.4rem;
+    width: 85%;
+    height: 85%;
+    object-fit: cover;
+    bottom: 0;
+    top: 80px;
+    padding: 7% 1% 0;
+}
+.news{
+  margin-top: 0%;
+}
+.history-wrapper__table {
+  border: solid #f08080 1px;
+  width: 100%;
+  text-align: left;
+}
+.history-wrapper__table tr {
+  border: solid #f08080 1px;
+  padding: 1%;
+}
+.history-wrapper__table th {
+  border: solid #f08080 1px;
+  padding: 1%;
+}
+
+.history-wrapper__table td {
+  border: solid #f08080 1px;
+  padding: 1%;
+}
+.contact {
+  background: #fbe1e1;
+}
+.contact .ttl{
+  background-color: #fbe1e1;
+  padding: 1%;
+}
+.contact-form {
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-form__item{
+  font-size: 30px;
+  color: navy;
+}
+.contact-form__item label {
+  display: inline-block;
+  width: 21rem;
+  text-align: center;
+}
+
+.contact-form__item input,
+textarea {
+  box-sizing: border-box;
+  border: solid #f08080 1px;
+  width: 60%;
+  margin-bottom: 2.5%;
+}
+
+.contact-form__item input {
+  padding: 1%;
+}
+
+.contact-form__item textarea {
+  vertical-align: top;
+  height: 25vh;
+}
+.contact-form__item__chk{
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  color: navy;
+}
+.contact-form__btn {
+  text-align: center;
+}
+
+.contact-form__btn__submit {
+  padding: 1.5% 5%;
+  background-color: #f08080;
+  margin: 5% 0 8%;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+}
+
+.footer {
+  background-color: navy;
+  padding: 5%;
+  text-align: center;
+  color: #fff;
+}
